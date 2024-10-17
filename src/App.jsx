@@ -11,7 +11,8 @@ import "./App.css";
 - Fixed the styling
 - Added alert on successful login
 - I didn't really get a chance to make any components, but after adding labels to the inputs i can see the option to potentially combine 
-  the label, input, and error span, along with the state and error state into a reusable react component
+  the label, input, and error span, along with the state and error state into a reusable react component, 
+  in a real case we would most likely use a form/validation library
 */
 
 function App() {
@@ -48,7 +49,7 @@ function App() {
     <>
       <div className="container">
         <h1>Live coding - Login form</h1>
-        
+
         <form onSubmit={handleSubmit}>
           <label for="emailInput">Email:</label>
           <input
