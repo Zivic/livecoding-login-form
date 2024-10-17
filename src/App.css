@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(243, 244, 246);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 4rem 0;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input {
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid whitesmoke;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 0.5rem 4rem;
+  background-color: lightgreen;
+  border: 1px solid whitesmoke;
+  border-radius: 8px;
+  margin-top: 1rem;
+  width: fit-content;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  align-self: center;
+}
+span {
+  color: red;
+  margin-bottom: 1rem;
+}
